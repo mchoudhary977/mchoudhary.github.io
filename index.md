@@ -16,7 +16,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message</button>
+  <button onclick="changeText()">Send Message-1</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <!--<h1 onclick="changeText(this)">Submit</h1> -->
