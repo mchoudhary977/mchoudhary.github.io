@@ -15,4 +15,7 @@
     <textarea id="msg" name="user_message"></textarea>
   </li>
  </ul>
+ <li class="button">
+  <button type="submit">Send your message</button>
+</li>
 </form>
