@@ -16,13 +16,13 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText(this)">Send Message</button>
+  <button onclick="changeText()">Send Message</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <!--<h1 onclick="changeText(this)">Submit</h1> -->
 
 <script>
-function changeText(id) {
+function changeText() {
   <!-- id.innerHTML = "Ooops!"; -->
  window.location.href="http://www.google.com";
 }
