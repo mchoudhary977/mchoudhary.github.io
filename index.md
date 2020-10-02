@@ -22,7 +22,8 @@
 
 <script>
 function changeText(id) {
-  id.innerHTML = "Ooops!";
+  <!-- id.innerHTML = "Ooops!"; -->
+ window.location.href="http://www.google.com";
 }
 </script>
 
