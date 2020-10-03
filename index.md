@@ -3,7 +3,7 @@
 </head>
 ## Hello World
 
-<form action="/my-handling-form-page" method="post" name="myForm">
+<form method="post" name="myForm">
  <ul>
   <li>
     <label for="name">Order_ID:</label>
@@ -19,7 +19,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message-7</button>
+  <button onclick="changeText()">Send Message-8</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
