@@ -19,7 +19,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message-1</button>
+  <button onclick="changeText()">Send Message-2</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
@@ -32,7 +32,8 @@ function changeText() {
 }
 </script>
 
-Function demo() { 
+<script>
+ function demo() { 
   $.ajax({ 
      type: get/post, 
      url: server url, 
@@ -43,7 +44,7 @@ Function demo() {
      } 
   }); 
 } 
- 
+</script> 
 <input type="submit" onclick="demo()" value="SubmitAJAX"> 
 
 </form>
