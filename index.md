@@ -19,7 +19,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message-2</button>
+  <button onclick="changeText()">Send Message-3</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
@@ -34,12 +34,15 @@ function changeText() {
 
 <script>
  function demo() { 
+  var formData = JSON.stringify($("#myForm").serializeArray());
   $.ajax({ 
      type: get/post, 
-     url: server url, 
+     url: "http://127.0.0.1:5000/api/v1/resources/books/all", 
      data: formdata, 
-     datatype: "", 
+     datatype: "json", 
+     contentType : "application/json"
      success: function(response){ 
+        alert("AJAX request successfully completed");
        // Do operation what you want to do 
      } 
   }); 
