@@ -1,3 +1,6 @@
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 ## Hello World
 
 <form action="/my-handling-form-page" method="post">
@@ -28,5 +31,19 @@ function changeText() {
  window.location.href="http://127.0.0.1:5000/api/v1/resources/books/all";
 }
 </script>
+
+Function demo() { 
+  $.ajax({ 
+     type: get/post, 
+     url: server url, 
+     data: formdata, 
+     datatype: "", 
+     success: function(response){ 
+       // Do operation what you want to do 
+     } 
+  }); 
+} 
+ 
+<input type="submit" onclick="demo()" value="SubmitAJAX"> 
 
 </form>
