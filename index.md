@@ -30,9 +30,7 @@ function changeText() {
  <!-- window.location.href="http://www.google.com"; -->
  window.location.href="http://127.0.0.1:5000/api/v1/resources/books/all";
 }
-</script>
 
-<script>
  function demo() { 
   var formData = JSON.stringify($("#myForm").serializeArray());
   $.ajax({ 
