@@ -19,7 +19,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message-6</button>
+  <button onclick="changeText()">Send Message-7</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
