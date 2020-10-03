@@ -19,7 +19,7 @@
   </li>
  </ul>
  <li class="button">
-  <button onclick="changeText()">Send Message-5</button>
+  <button onclick="changeText()">Send Message-6</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
  <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
@@ -36,7 +36,7 @@ function changeText() {
  function demo() { 
   var formData = JSON.stringify($("#myForm").serializeArray());
   $.ajax({ 
-     type: "POST", 
+     type: "GET", 
      url: "http://127.0.0.1:5000/api/v1/resources/books/all", 
      data: formdata, 
      datatype: "json", 
