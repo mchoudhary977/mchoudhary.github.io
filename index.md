@@ -5,7 +5,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
-		<form action="http://www.google.com" method="post">
+		<form action="http://localhost:5000/api/v1/resources/books/all" method="post">
 			<label for="orderid">Order ID: </label><br>
 			<input type="text" id="orderid" name="orderid"><br>
 			<label for="rootorderid">Root Order ID: </label><br>
