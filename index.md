@@ -3,7 +3,7 @@
 </head>
 ## Hello World
 
-<form method="post" name="myForm">
+<form action="http://localhost:5000/" method="post" name="myForm">
  <ul>
   <li>
     <label for="name">Order_ID:</label>
