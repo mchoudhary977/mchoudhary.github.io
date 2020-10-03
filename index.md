@@ -3,7 +3,7 @@
 </head>
 ## Hello World
 
-<form action="/my-handling-form-page" method="post">
+<form action="/my-handling-form-page" method="post" name="myForm">
  <ul>
   <li>
     <label for="name">Order_ID:</label>
