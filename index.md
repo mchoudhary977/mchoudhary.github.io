@@ -2,7 +2,6 @@
 <html>
     <head>
         <title>Basic Web Page</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
     <body>
 		<form action="http://localhost:5000/api/v1/resources/books/all" name="myForm" method="post">
