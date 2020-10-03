@@ -19,12 +19,13 @@
   <button onclick="changeText()">Send Message-1</button>
   <!--<button type="submit">Send your message</button> -->
 </li>
- <!--<h1 onclick="changeText(this)">Submit</h1> -->
+ <h1 onclick="changeText(this)">SubmitForLocalhost</h1>
 
 <script>
 function changeText() {
   <!-- id.innerHTML = "Ooops!"; -->
- window.location.href="http://www.google.com";
+ <!-- window.location.href="http://www.google.com"; -->
+ window.location.href="http://127.0.0.1:5000/api/v1/resources/books/all";
 }
 </script>
 
