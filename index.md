@@ -15,9 +15,9 @@
 			<input type="text" id="ticker_symbol" name="ticker_symbol"><br>
 			<label for="side">Side</label><br>
 			<input type="text" id="side" name="side"><br>
-			<label for="trade_date">Trade Date</label>
+			<label for="trade_date">Trade Date</label><br>
 			<input type="date" id="start_trade_date" name="start_trade_date" value="2020-10-03" min="2018-01-01" max="2025-12-31"><br>
-			<input type="date" id="start_trade_date" name="start_trade_date" value="2020-10-03" min="2018-01-01" max="2025-12-31"><br><br>
+			<input type="date" id="end_trade_date" name="end_trade_date" value="2020-10-03" min="2018-01-01" max="2025-12-31"><br><br>
 			<input type="submit" value="SubmitForm">
 		</form>
 	</body>
