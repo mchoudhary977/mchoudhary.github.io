@@ -12,7 +12,7 @@
 			<label for="custmnemonicaccount">CustomerMnemonicAccount: </label><br>
 			<input type="text" id="custmnemonicaccount" name="custmnemonicaccount"><br>
 			<label for="start">Start date:</label>
-			<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2020-12-31">
+			<input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2020-12-31"><br><br>
 			<input type="submit" onclick="demo()" value="SubmitForm">
 		</form>
 	</body>
